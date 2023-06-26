@@ -130,7 +130,6 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: 0.3s ease;
 }
 button:hover {
   background: linear-gradient(90deg, rgb(255, 98, 87) 46%, rgb(252, 176, 69) 100%);

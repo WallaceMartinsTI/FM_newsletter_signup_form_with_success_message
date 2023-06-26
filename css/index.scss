@@ -160,11 +160,11 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: .3s ease;
   
-  &:hover { 
+  &:hover {
     background: linear-gradient(90deg, rgba(255,98,87,1) 46%, rgba(252,176,69,1) 100%);
   }
+ 
 }
 
 /* Media queries for responsive design */
