@@ -25,5 +25,5 @@ This is a solution to the [Newsletter sign-up form with success message](https:/
 
 ## 📄 License
 
-This project is under the Apache license. See the [LICENSE](./assets/fonts/LICENSE.txt) file for more details.
+This project is under the Apache License 2.0. See the [LICENSE](./assets/fonts/LICENSE.txt) file for more details.
 <br />
