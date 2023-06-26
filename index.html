@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Web development challenger level junior"
+    />
+    <meta name="keywords" content="web development, HTML, CSS, JavaScript" />
+    <meta name="author" content="Wallace Martins" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <p id="title">Stay updated!</p>
+        <p id="subtitle">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+
+        <ul>
+          <li>
+            <img
+              src="./assets/images/icon-list.svg"
+              alt="an orange circle icon with a white check"
+            />
+            <p>Product discovery and building what matters</p>
+          </li>
+
+          <li>
+            <img
+              src="./assets/images/icon-list.svg"
+              alt="an orange circle icon with a white check"
+            />
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+
+          <li>
+            <img
+              src="./assets/images/icon-list.svg"
+              alt="an orange circle icon with a white check"
+            />
+            <p>And much more!</p>
+          </li>
+        </ul>
+
+        <section>
+          <div>
+            <p>Email address</p>
+            <p id="error" class="hidden">Valid email required</p>
+          </div>
+          <input id="email" type="email" placeholder="email@company.com" />
+        </section>
+
+        <button onclick="submit()">Subscribe to monthly newsletter</button>
+      </div>
+
+      <div class="image-container">
+        <img id="image" src="" alt="" />
+      </div>
+    </div>
+
+    <div class="thanks-message hidden">
+      <img
+        src="./assets/images/icon-success.svg"
+        alt="an orange icon with a white check"
+      />
+      <p id="success-title">Thanks for subscribing!</p>
+      <p id="success-description">
+        A confirmation email has been sent to <span id="mailTo"></span>. Please
+        open it and click the button inside to confirm your subscription.
+      </p>
+      <button onclick="reload()">Dismiss message</button>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
