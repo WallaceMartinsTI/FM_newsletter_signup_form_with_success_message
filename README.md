@@ -6,8 +6,8 @@ This is a solution to the [Newsletter sign-up form with success message](https:/
 
 ## 🔗 Links
 
-- Solution URL: [Click here]()
-- Live Site URL: [Click here]()
+- Solution URL: [Click here](https://github.com/WallaceMartinsTI/FM_newsletter_signup_form_with_success_message)
+- Live Site URL: [Click here](https://wallacemartinsti.github.io/FM_newsletter_signup_form_with_success_message/)
 
 ## 🛠️ Built with
 
